@@ -103,8 +103,19 @@ Execute the modified script using a Python interpreter or Jupyter Notebook. The 
 By customizing the code, you can adapt it to different datasets, explore various time periods, and integrate it seamlessly into your time series forecasting projects.
 
 ## Contributing
-Contributions to this project are enthusiastically welcomed. Whether it's enhancing functionality or fixing bugs, feel free to submit issues or pull requests to propel the project forward.
-
+We appreciate your interest in contributing to the Time Series Analysis Model project. Whether you are offering feedback, reporting issues, or proposing new features, your contributions are invaluable. Here's how you can get involved:
+### How to Contribute
+1. **Issue Reporting:**
+   * If you encounter any issues or unexpected behavior, please open an issue on the project.
+   * Provide detailed information about the problem, including steps to reproduce it.
+2. **Feature Requests:**
+   * Share your ideas for enhancements or new features by opening a feature request on GitHub.
+   * Clearly articulate the rationale and potential benefits of the proposed feature.
+3. **Pull Requests:**
+   * If you have a fix or an enhancement to contribute, submit a pull request.
+   * Ensure your changes align with the project's coding standards and conventions.
+   * Include a detailed description of your changes.
+  
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Codingruinsmylife/Time-Series-Analysis/blob/main/LICENSE.txt) file for details. <br><br>
+The Time Series Analysis Model project is open-source and licensed under the [MIT License](LISENCE). By contributing to this project, you agree that your contributions will be licensed under this license. Thank you for considering contributing to our project. Your involvement helps make this project better for everyone. <br><br>
 **Happy forecasting!** 🚀
