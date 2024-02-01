@@ -23,9 +23,7 @@ The EDA component utilizes Matplotlib to create visualizations that reveal insig
 The core forecasting component utilizes the Holt-Winters Exponential Smoothing algorithm from the Statsmodels library. This algorithm accounts for trends, seasonality, and level in the time series data. The Holt-Winters model provides a robust framework for generating accurate sales forecasts, incorporating both short-term and long-term patterns.
 4. **Forecasting and Visualization:**
 After fitting the Exponential Smoothing model, the next 7 days' sales are forecasted. The results are presented through visualizations, such as time series plots and a table displaying forecasted sales for each day. Clear visualizations aid in understanding the forecasted sales trends and facilitate communication of results.
-5. **TimeSeriesSplit Cross-Validation:**
-To assess the model's performance, the TimeSeriesSplit component splits the sales time series data into training and validation sets using a time-aware cross-validation technique. Cross-validation ensures the model's reliability and generalizability by simulating real-world forecasting scenarios.
-6. **Performance Metrics Calculation:**
+5. **Performance Metrics Calculation:**
 This component calculates performance metrics, including Mean Absolute Error (MAE) and Mean Squared Error (MSE), to quantitatively evaluate the accuracy of the forecasting model. Performance metrics provide a numerical assessment of the model's forecasting accuracy, aiding in objective evaluation.
 
 ## Why Use Holt-Winters Exponential Smoothing?
