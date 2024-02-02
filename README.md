@@ -6,11 +6,11 @@ This repository serves as a comprehensive solution for time series forecasting a
 
 ## Project Objectives
 The primary objectives of this project are centered around empowering users with a robust framework for time series analysis and sales forecasting. By combining advanced statistical methods with machine learning techniques, the project addresses key challenges associated with sales data, offering a comprehensive solution for both exploration and prediction.
-1. **Exploratory Data Analysis (EDA):**
+1. **Exploratory Data Analysis (EDA)**<br>
 To uncover underlying patterns, trends, and anomalies within the sales data through visualizations and statistical analysis. A thorough EDA lays the foundation for informed decision-making by providing insights into the historical sales performance.
-2. **Holt-Winters Exponential Smoothing Forecasting:**
+2. **Holt-Winters Exponential Smoothing Forecasting**<br>
 To implement the Holt-Winters Exponential Smoothing algorithm to forecast sales for the next 7 days. This forecasting method is adept at capturing both short-term fluctuations and long-term trends, providing a reliable basis for resource allocation and strategic planning.
-3. **Performance Evaluation:**
+3. **Performance Evaluation**<br>
 To assess the accuracy and reliability of the forecasting model using key metrics such as Mean Absolute Error (MAE) and Mean Squared Error (MSE). Rigorous evaluation ensures the model's effectiveness and helps users understand the degree of confidence they can place in the generated forecasts.
 
 ## Key Components
