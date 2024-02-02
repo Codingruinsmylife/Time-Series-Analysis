@@ -28,12 +28,12 @@ This component calculates performance metrics, including Mean Absolute Error (MA
 
 ## Why Use Holt-Winters Exponential Smoothing?
 The selection of the Holt-Winters Exponential Smoothing algorithm for time series analysis and forecasting is driven by its ability to effectively capture and model various components of the time series data. This section delves into the reasons behind choosing Holt-Winters for this project:
-1. **Handling Seasonality:**
+1. **Handling Seasonality**
 * **Seasonal Component:** Holt-Winters is well-suited for datasets exhibiting seasonality, where patterns repeat at regular intervals. By incorporating a seasonal component, the model can effectively capture and predict recurring patterns in sales data, essential for accurate forecasting.
-2. **Trend and Level Consideration:**
+2. **Trend and Level Consideration**
 * **Trend Component:** The algorithm accounts for trends in the data, allowing it to adapt to upward or downward shifts in sales over time. This is crucial for capturing long-term patterns and ensuring that the model can adjust to evolving business conditions.
 * **Level Component:** The inclusion of a level component enables the model to capture the overall baseline level of sales, providing a comprehensive representation of the underlying dynamics.
-3. **Adaptablity to Changes:**
+3. **Adaptablity to Changes**
 * Holt-Winters responds well to changes in the underlying patterns of the time series. Whether there is a sudden increase in sales or a shift in seasonality, the model can adapt and incorporate these changes into its forecasts.
 
 ## Dataset
@@ -41,10 +41,10 @@ The dataset used for this time series analysis and sales forecasting project is 
 
 ## Getting Started
 To get started with this time series analysis and sales forecasting project, follow the steps outlined below. The process involves setting up the necessary environment, understanding the code structure, and running the provided Python script.
-# Prerequisites:
-1. **Python Environment:**
+### Prerequisites
+1. **Python Environment**
 * Ensure that you have Python installed on your machine. If not, you can download it from [python.org](https://www.python.org/).
-1. **Required Libraries:**
+1. **Required Libraries**
 * Install the required Python libraries using the following command:
 ```bash
 pip install pandas numpy matplotlib statsmodels scikit-learn
@@ -52,9 +52,9 @@ pip install pandas numpy matplotlib statsmodels scikit-learn
 ## Usage
 This section provides guidance on how to use the provided Python script for time series analysis and sales forecasting using the Holt-Winters Exponential Smoothing model. Follow the steps below to run the script and explore the results.
 ### Steps:
-1. **Download the Code:**
+1. **Download the Code**
 * Download the provided Python script (sales_forecasting.ipynb) and save it in your project directory.
-2. **Import Necessary Libraries:**
+2. **Import Necessary Libraries**
 * At the beginning of your script or Jupyter Notebook, import the required libraries:
 ```bash
 import pandas as pd
@@ -66,12 +66,12 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 ```
-3. **Customize the Data Loading:**
+3. **Customize the Data Loading**
 * Adjust the data loading section if your dataset has a different filename or path:
 ```bash
 df = pd.read_csv("your_dataset.csv")
 ```
-4. **Adapt the EDA and Visualization:**
+4. **Adapt the EDA and Visualization**
 * Customize the exploratory data analysis (EDA) section based on your preferences. Modify plot titles, labels, or visualization parameters to suit your analysis:
 ```bash
 plt.figure(figsize=(12,6))
@@ -103,13 +103,13 @@ By customizing the code, you can adapt it to different datasets, explore various
 ## Contributing
 We appreciate your interest in contributing to the Time Series Analysis Model project. Whether you are offering feedback, reporting issues, or proposing new features, your contributions are invaluable. Here's how you can get involved:
 ### How to Contribute
-1. **Issue Reporting:**
+1. **Issue Reporting**
    * If you encounter any issues or unexpected behavior, please open an issue on the project.
    * Provide detailed information about the problem, including steps to reproduce it.
-2. **Feature Requests:**
+2. **Feature Requests**
    * Share your ideas for enhancements or new features by opening a feature request on GitHub.
    * Clearly articulate the rationale and potential benefits of the proposed feature.
-3. **Pull Requests:**
+3. **Pull Requests**
    * If you have a fix or an enhancement to contribute, submit a pull request.
    * Ensure your changes align with the project's coding standards and conventions.
    * Include a detailed description of your changes.
