@@ -15,15 +15,15 @@ To assess the accuracy and reliability of the forecasting model using key metric
 
 ## Key Components
 The project is structured around several key components that collectively contribute to its functionality and utility. Each component plays a crucial role in achieving the project objectives, providing users with a comprehensive and adaptable solution for time series analysis and sales forecasting.
-1. **Data Loading and Preprocessing:**
+1. **Data Loading and Preprocessing**<br>
 This component involves loading the sales data from a CSV file using the Pandas library. The data is then preprocessed to ensure consistency and usability in subsequent analysis steps. Clean and well-structured data is essential for accurate analysis and forecasting.
-2. **Exploratory Data Analysis (EDA):**
+2. **Exploratory Data Analysis (EDA)**<br>
 The EDA component utilizes Matplotlib to create visualizations that reveal insights into the sales data. It includes time series plots, rolling statistics for seasonality and trends, and autocorrelation/partial autocorrelation plots. EDA is a crucial step for understanding the historical sales patterns and identifying factors influencing the data.
-3. **Holt-Winters Exponential Smoothing Model:**
+3. **Holt-Winters Exponential Smoothing Model:**<br>
 The core forecasting component utilizes the Holt-Winters Exponential Smoothing algorithm from the Statsmodels library. This algorithm accounts for trends, seasonality, and level in the time series data. The Holt-Winters model provides a robust framework for generating accurate sales forecasts, incorporating both short-term and long-term patterns.
-4. **Forecasting and Visualization:**
+4. **Forecasting and Visualization**<br>
 After fitting the Exponential Smoothing model, the next 7 days' sales are forecasted. The results are presented through visualizations, such as time series plots and a table displaying forecasted sales for each day. Clear visualizations aid in understanding the forecasted sales trends and facilitate communication of results.
-5. **Performance Metrics Calculation:**
+5. **Performance Metrics Calculation**<br>
 This component calculates performance metrics, including Mean Absolute Error (MAE) and Mean Squared Error (MSE), to quantitatively evaluate the accuracy of the forecasting model. Performance metrics provide a numerical assessment of the model's forecasting accuracy, aiding in objective evaluation.
 
 ## Why Use Holt-Winters Exponential Smoothing?
