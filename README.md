@@ -2,7 +2,7 @@
 This repository contains Python code for performing time series forecasting and analysis using the Holt-Winters Exponential Smoothing method. The code is designed to work with time series data and provides insights into the data's seasonality, trends, and autocorrelation patterns.
 
 ## Overview
-This repository serves as a comprehensive solution for time series forecasting and analysis, specifically tailored for sales data. Leveraging the Holt-Winters Exponential Smoothing method, the code provides insights into intricate patterns, trends, and dependencies inherent in time series sales data. The primary objectives encompass thorough exploratory data analysis (EDA), accurate forecasting for the subsequent 7 days, and rigorous cross-validation using the TimeSeriesSplit technique.
+This repository serves as a comprehensive solution for time series forecasting and analysis, specifically tailored for sales data. Leveraging the Holt-Winters Exponential Smoothing method, the code provides insights into intricate patterns, trends, and dependencies inherent in time series sales data. The primary objectives encompass thorough exploratory data analysis (EDA), accurate forecasting for the subsequent 7 days, and model performance evaluation.
 
 ## Project Objectives
 The primary objectives of this project are centered around empowering users with a robust framework for time series analysis and sales forecasting. By combining advanced statistical methods with machine learning techniques, the project addresses key challenges associated with sales data, offering a comprehensive solution for both exploration and prediction.
